@@ -25,7 +25,7 @@ function AllProducts() {
                 </div>
                 <div className="flex flex-row justify-between gap-2">
                     <div className="flex flex-row gap-2">
-                        <img src={`./src/assets/img/Star${item.votes > 0 ? '_fill' : ''}.svg`} className="h-6" alt={item.name} />
+                        <img src={`/img/Star${item.votes > 0 ? '_fill' : ''}.svg`} className="h-6" alt={item.name} />
                         {item.votes > 0 ? <span className="text-white text-md font-semibold">{item.rating}</span> : ''}
                         <span className="text-gray-500 text-md font-semibold">{item.votes > 0 ? `(${item.votes} votos)` : 'No ratings'}</span>
                     </div>
@@ -61,7 +61,7 @@ function AvailableProducts() {
                     </div>
                     <div className="flex flex-row justify-between gap-2">
                         <div className="flex flex-row gap-2">
-                            <img src={`./src/assets/img/Star${item.votes > 0 ? '_fill' : ''}.svg`} className="h-6" alt={item.name} />
+                            <img src={`/img/Star${item.votes > 0 ? '_fill' : ''}.svg`} className="h-6" alt={item.name} />
                             {item.votes > 0 ? <span className="text-white text-md font-semibold">{item.rating}</span> : ''}
                             <span className="text-gray-500 text-md font-semibold">{item.votes > 0 ? `(${item.votes} votos)` : 'No ratings'}</span>
                         </div>
