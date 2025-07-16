@@ -63,7 +63,7 @@ function AvailableProducts() {
                         <div className="flex flex-row gap-2">
                             <img src={`/img/Star${item.votes > 0 ? '_fill' : ''}.svg`} className="h-6" alt={item.name} />
                             {item.votes > 0 ? <span className="text-white text-md font-semibold">{item.rating}</span> : ''}
-                            <span className="text-gray-500 text-md font-semibold">{item.votes > 0 ? `(${item.votes} votos)` : 'No ratings'}</span>
+                            <span className="text-gray-500 text-md font-semibold">{item.votes > 0 ? `(${item.votes} votes)` : 'No ratings'}</span>
                         </div>
                         {!item.available ? <span className="text-red-400 text-md font-semibold">Sold out</span> : ''}
                     </div>
