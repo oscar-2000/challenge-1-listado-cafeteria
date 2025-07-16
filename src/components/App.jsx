@@ -7,7 +7,7 @@ export default function App() {
   const [filter, setFilter] = useState('all');
   return (
     <>
-      <div className='h-70 bg-[url(./src/assets/img/bg-cafe-sm.jpg)] bg-lg-[url(./src/assets/img/bg-cafe-lg.jpg)]'></div>
+      <div className='h-70 bg-[url(/img/bg-cafe-sm.jpg)] bg-lg-[url(./src/assets/img/bg-cafe-lg.jpg)]'></div>
       <div className='rounded-3xl max-w-[1300px] mx-auto bg-[#1c1d1f] p-10 md:p-28 -mt-28 mb-28'>
         <div className="text-center mb-10">
           <h4 className='text-white text-4xl font-bold mb-5'>Our Collection</h4>
